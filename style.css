@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'LibrumEBold';
+    src: url('LibrumE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'LibrumEBold', sans-serif;
+    text-align: center;
+    background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Change this if needed for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
