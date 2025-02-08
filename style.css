@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    color: #211F21; /* Dark gray text */
     padding: 20px;
-    border-radius: 10px;
+    background: none; /* Remove black highlight */
 }
