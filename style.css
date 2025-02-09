@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AttorneyFont';
+    src: url('fp9r8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'LibrumEBold', sans-serif;
     text-align: center;
@@ -26,11 +33,21 @@ body {
     flex-wrap: wrap; /* Ensures responsiveness */
 }
 
+.text-content {
+    text-align: center;
+}
+
 h1 {
     font-size: 3rem;
     color: #211F21;
     padding: 20px;
-    text-align: center;
+}
+
+h2 {
+    font-family: 'AttorneyFont', sans-serif;
+    font-size: 1.5rem;
+    color: #211F21;
+    margin-top: -10px; /* Adjusts spacing between h1 and h2 */
 }
 
 .right-image {
