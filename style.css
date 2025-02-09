@@ -1,61 +1,52 @@
 @font-face {
     font-family: 'LibrumEBold';
-    src: url('LibrumE-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
+    src: url('LibrumE-Bold.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'BodyFont';
     src: url('fp9r8a.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 
-/* Full-Screen Background */
+/* Apply Minimal GitHub Theme */
 body {
     font-family: 'BodyFont', serif;
     text-align: center;
-    background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* ✅ Pushes everything lower */
-    align-items: center;
-    padding-bottom: 10vh; /* ✅ Adds spacing below content */
+    background-color: #F9F9F9;
     color: #211F21;
+    padding: 40px;
 }
 
-/* Title Styling - Lowered */
+/* Title */
 .main-title {
     font-family: 'LibrumEBold', serif;
     font-size: 3.5rem;
     text-transform: uppercase;
-    margin-bottom: 40px; /* ✅ Adds spacing below title */
-    padding-top: 15vh; /* ✅ Pushes title down */
+    margin-bottom: 20px;
 }
 
-/* Container for Content */
-.container {
-    max-width: 700px;
-    padding: 20px;
-    text-align: left;
-}
-
-/* Section Titles */
+/* Sections */
 h2 {
     font-family: 'LibrumEBold', serif;
     font-size: 1.8rem;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-/* Regular Text */
 p, ul, li {
     font-family: 'BodyFont', serif;
     font-size: 1.2rem;
-    margin-bottom: 10px;
-    line-height: 1.5;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Contact Labels */
+.label {
+    font-weight: bold;
+}
+
+/* Add Spacing for Future Image */
+.image-placeholder {
+    height: 200px; /* Space reserved for an image */
+    background-color: #D9D9D9;
+    margin-bottom: 20px;
 }
