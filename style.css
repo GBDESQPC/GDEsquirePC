@@ -1,1 +1,6 @@
-
+h1 {
+    font-size: 3rem;
+    color: #211F21; /* Dark gray text */
+    padding: 20px;
+    background: none; /* Remove black highlight */
+}
