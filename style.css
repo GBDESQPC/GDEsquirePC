@@ -36,9 +36,9 @@ body {
 .top-left-text {
     font-family: 'EsquireFont', sans-serif;
     font-size: 1.2rem;
-    color: #211F21; /* Changed from white */
+    color: #211F21;
     position: absolute;
-    top: 10px; /* Adjusted to move it higher */
+    top: 30px; /
     left: 30px;
 }
 
