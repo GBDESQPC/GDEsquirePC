@@ -28,9 +28,10 @@ body {
 /* Title Styling */
 .main-title {
     font-family: 'LibrumEBold', serif;
-    font-size: 3.5rem; /* Corrected size */
+    font-size: 4rem; /* Adjusted for better visibility */
     text-transform: uppercase;
-    margin: 10px 0; /* Adds slight margin for spacing */
+    color: white;
+    margin-bottom: 30px; /* Pushes title down so it's fully visible */
     padding: 0;
 }
 
