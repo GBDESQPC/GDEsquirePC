@@ -140,10 +140,10 @@ h2 {
 .bio-container {
     font-family: 'LibrumEBold';
     font-size: 1.2rem;
-    max-width: 75%;
+    max-width: 60%; /* Reduces width for wider margins */
     text-align: left;
     line-height: 1.6;
-    margin: 0px auto; /* Centers content with wider margins */
+    margin: 0px auto; /* Centers content */
     position: relative;
-    top: -60px; /* Moves the bio text further up */
+    top: -60px; /* Keeps it pulled up */
 }
