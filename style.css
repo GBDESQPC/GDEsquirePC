@@ -103,6 +103,6 @@ h2 {
     max-width: 60%;
     text-align: justify; /* Ensures nice readability */
     line-height: 1.6;
-    margin: 10px auto; /* Reduces space above and below */
-    padding: 10px; /* Less padding for a tighter layout */
+    margin: 0 auto; /* Removes space above, centers it */
+    padding-top: 5px; /* Keeps just a little breathing room */
 }
