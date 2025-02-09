@@ -34,7 +34,7 @@ body {
 
 /* Fix alignment, increase font size, and move text up */
 .top-left-text {
-    font-family: 'EsquireFont', sans-serif; /* Fixed missing semicolon */
+    font-family: 'EsquireFont';
     font-size: 2rem; /* Increased size */
     color: #211F21;
     position: absolute;
