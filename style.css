@@ -24,7 +24,7 @@ body {
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
-    color: white; /* Adjust for readability */
+    color: #211F21; /* Ensures default text color is applied */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,44 +32,7 @@ body {
     flex-direction: column;
 }
 
+/* Ensure the top-left text appears with the correct font and color */
 .top-left-text {
     font-family: 'EsquireFont', sans-serif;
-    font-size: 1.2rem;
-    color: #211F21; /* Matches other text color */
-    position: absolute;
-    top: 20px;
-    left: 30px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between text and image */
-    max-width: 80%;
-    flex-wrap: wrap; /* Ensures responsiveness */
-}
-
-.text-content {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3rem;
-    color: #211F21;
-    padding: 20px;
-    margin-bottom: -5px; /* Reduces space below H1 */
-}
-
-h2 {
-    font-family: 'AttorneyFont', sans-serif;
-    font-size: 1.4rem;
-    color: #211F21; /* Matches H1 text color */
-    margin-top: -30px; /* Moves text closer to H1 */
-}
-
-.right-image {
-    width: 150px; /* Adjust as needed */
-    height: auto;
-    border-radius: 10px; /* Optional: adds rounded corners */
-}
+    font
