@@ -41,34 +41,36 @@
 /* Logo and Name Section */
 .logo-container {
     text-align: center;
-    margin-bottom: 30px; /* Adds space below the logo */
+    margin-bottom: 50px; /* Space below the logo */
     margin-top: 50px; /* Moves the entire section down */
 }
 
-/* Small Name Text */
+/* "Galab Dhungana" - Normal Case */
 .small-name {
     font-family: 'EsquireFont';
     font-size: 1.2rem;
     font-weight: bold;
     color: #211F21;
-    text-transform: uppercase;
-    margin-bottom: 2px; /* Slight spacing */
+    text-transform: none; /* Keeps normal case */
+    margin-bottom: 2px; /* Space between "Galab Dhungana" and "Esquire PC" */
 }
 
-/* Small Subtitle Text */
+/* "ESQUIRE PC" - All Caps */
 .small-subtitle {
     font-family: 'EsquireFont';
-    font-size: 1rem;
+    font-size: 1.2rem; /* Same size as "Galab Dhungana" */
+    font-weight: bold;
     color: #211F21;
-    margin-bottom: 8px; /* Space between subtitle and logo */
+    text-transform: uppercase; /* Forces all caps */
+    margin-bottom: 20px; /* Space between "Esquire PC" and image */
 }
 
 /* Small Logo Styling */
 .small-logo {
-    width: 90px; /* Small image */
+    width: 90px; /* Keeps the image small */
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 15px auto; /* Centers the image and adds space */
 }
 
 body {
@@ -93,7 +95,7 @@ body {
     gap: 20px;
     max-width: 80%;
     flex-wrap: wrap;
-    margin-bottom: 50px; /* Adds space below title */
+    margin-bottom: 50px; /* Space below title */
 }
 
 /* Header Text */
@@ -122,7 +124,7 @@ h2 {
     font-size: 2rem;
     color: #211F21;
     text-transform: uppercase;
-    margin-top: 80px; /* Adjusts spacing */
+    margin-top: 80px;
 }
 
 /* Biography Section */
@@ -135,4 +137,3 @@ h2 {
     margin: 20px auto;
     padding-top: 10px;
 }
-
