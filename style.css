@@ -60,7 +60,7 @@
 .small-logo {
     display: block;
     width: 90px; /* Same width as the removed image */
-    height: 50px; /* Keeps a blank space */
+    height: 80px; /* Keeps a blank space */
     visibility: hidden; /* Invisible but maintains spacing */
     margin: 10px auto 0;
 }
