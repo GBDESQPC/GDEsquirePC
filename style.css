@@ -8,11 +8,13 @@
 @font-face {
     font-family: 'BodyFont';
     src: url('fp9r8a.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Full-Screen Background */
 body {
-    font-family: 'BodyFont', serif;
+    font-family: 'BodyFont', serif; /* ✅ Forces body text to use fp9r8a.otf */
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
@@ -23,23 +25,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #211F21; /* ✅ Original text color */
 }
 
-/* Title Styling */
+/* Title Styling - Correct Position */
 .main-title {
     font-family: 'LibrumEBold', serif;
-    font-size: 4rem; /* Adjusted for better visibility */
+    font-size: 3.5rem; /* ✅ Keeps reasonable size */
     text-transform: uppercase;
-    color: white;
-    margin-bottom: 30px; /* Pushes title down so it's fully visible */
-    padding: 0;
+    margin-top: 80px; /* ✅ Pushes the title lower on the page */
+    margin-bottom: 30px;
 }
 
 /* Container for Content */
 .container {
     max-width: 700px;
-    padding: 20px; /* Adds margins so it's not squished */
-    text-align: left; /* Align text naturally */
+    padding: 20px;
+    text-align: left;
 }
 
 /* Section Titles */
@@ -49,9 +51,9 @@ h2 {
     margin-top: 15px;
 }
 
-/* Regular Text */
+/* Regular Text - Now **FORCIBLY** Uses the Correct Font */
 p {
-    font-family: 'BodyFont', serif;
+    font-family: 'BodyFont', serif; /* ✅ Forces correct font */
     font-size: 1.2rem;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -59,11 +61,11 @@ p {
 
 /* Bullet Points - Properly Aligned */
 ul {
-    font-family: 'BodyFont', serif;
+    font-family: 'BodyFont', serif; /* ✅ Ensures bullet text also uses fp9r8a.otf */
     font-size: 1.2rem;
-    padding-left: 20px; /* Adjust bullet position */
+    padding-left: 20px;
 }
 
 li {
-    margin: 5px 0; /* Ensures bullets are properly spaced */
+    margin: 5px 0;
 }
