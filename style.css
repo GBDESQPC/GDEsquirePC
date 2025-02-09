@@ -146,5 +146,5 @@ h2 {
     line-height: 1.6;
     margin: 0px auto; /* Centers content with wider margins */
     position: relative;
-    top: -30px;
+    top: -60px; /* Moves the bio text further up */
 }
