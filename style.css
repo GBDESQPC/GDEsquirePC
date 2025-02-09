@@ -56,14 +56,13 @@
     margin-top: 50px; /* Moves the entire section down */
 }
 
-/* Small Logo Styling */
+/* Keeps the space where the image was */
 .small-logo {
-    width: 85px; /* Keeps the image small */
-    height: auto;
     display: block;
-    margin: 0 auto;
-    position: relative; /* Moves only the image */
-    top: 30px; /* Moves the image down without affecting anything else */
+    width: 90px; /* Same width as the removed image */
+    height: 50px; /* Keeps a blank space */
+    visibility: hidden; /* Invisible but maintains spacing */
+    margin: 10px auto 0;
 }
 
 body {
