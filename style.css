@@ -61,10 +61,12 @@
 
 /* Small Logo Styling */
 .small-logo {
-    width: 100px; /* Adjust for smaller size */
+    width: 90px; /* Keeps the image small */
     height: auto;
     display: block;
-    margin: 15px auto;
+    margin: 0 auto;
+    position: relative; /* Moves only the image */
+    top: 20px; /* Moves the image down without affecting anything else */
 }
 
 body {
