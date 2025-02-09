@@ -44,26 +44,6 @@
     margin-top: 50px; /* Moves the entire section down */
 }
 
-/* "Galab Dhungana" - Normal Case */
-.small-name {
-    font-family: 'EsquireFont';
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #211F21;
-    text-transform: none; /* Keeps normal capitalization */
-    margin-bottom: 5px; /* Reduces space between this and "ESQUIRE PC" */
-}
-
-/* "ESQUIRE PC" - All Caps */
-.small-subtitle {
-    font-family: 'EsquireFont';
-    font-size: 1.2rem; /* Same size as "Galab Dhungana" */
-    font-weight: bold;
-    color: #211F21;
-    text-transform: none;
-    margin-bottom: 10px; /* Reduces space between "Esquire PC" and image */
-}
-
 /* Small Logo Styling */
 .small-logo {
     width: 90px; /* Keeps the image small */
