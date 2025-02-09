@@ -41,22 +41,28 @@
 /* Logo and Name Section */
 .logo-container {
     text-align: center;
-    margin-bottom: 20px; /* Adds space below the logo */
+    margin-bottom: 30px; /* Space below the logo */
+    margin-top: 50px; /* Moves the entire section down */
 }
 
+/* "Galab Dhungana" - Normal Case */
 .small-name {
     font-family: 'EsquireFont';
     font-size: 1.2rem;
     font-weight: bold;
     color: #211F21;
-    text-transform: uppercase;
+    text-transform: none; /* Keeps normal capitalization */
+    margin-bottom: 10px; /* Increased space between this and "ESQUIRE PC" */
 }
 
+/* "ESQUIRE PC" - All Caps */
 .small-subtitle {
     font-family: 'EsquireFont';
-    font-size: 1rem;
+    font-size: 1.2rem; /* Same size as "Galab Dhungana" */
+    font-weight: bold;
     color: #211F21;
-    margin-bottom: 10px;
+    text-transform: uppercase; /* Forces all caps */
+    margin-bottom: 20px; /* Space between "Esquire PC" and image */
 }
 
 /* Small Logo Styling */
@@ -64,9 +70,7 @@
     width: 90px; /* Keeps the image small */
     height: auto;
     display: block;
-    margin: 0 auto;
-    position: relative; /* Moves only the image */
-    top: 20px; /* Moves the image down without affecting anything else */
+    margin: 15px auto 0; /* Pushes the image down slightly */
 }
 
 body {
