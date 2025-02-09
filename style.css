@@ -119,6 +119,15 @@ h2 {
     margin: 90px auto 0;
 }
 
+/* Contact Info Below the Black Line */
+.contact-info {
+    font-family: 'LibrumEBold';
+    font-size: 1rem; /* Matches top-right text */
+    color: #211F21;
+    text-align: center;
+    margin-top: 40px; /* Moves it about 2 inches below the black line */
+}
+
 /* "ABOUT GALAB DHUNGANA" Heading */
 .about-heading {
     font-family: 'BioHeadingFont';
