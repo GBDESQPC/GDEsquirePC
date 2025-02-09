@@ -20,11 +20,11 @@
 }
 
 body {
-    font-family: 'LibrumEBold', sans-serif;
+    font-family: 'LibrumEBold';
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
-    color: #211F21; /* Changed from white to match all text */
+    color: #211F21;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,16 +32,30 @@ body {
     flex-direction: column;
 }
 
-/* Fix alignment, increase font size, and move text up */
+/* Container to properly align and space the text */
+.top-left-container {
+    position: absolute;
+    top: 80px; /* Moves the text further down */
+    left: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* "Galab Dhungana" */
 .top-left-text {
     font-family: 'EsquireFont';
-    font-size: 2rem; /* Increased size */
+    font-size: 1.6rem; /* Keeps text readable */
     color: #211F21;
-    position: absolute;
-    top: 5px; /* Moves it higher */
-    left: 30px;
-    text-align: left; /* Ensures it's aligned to the left */
-    white-space: nowrap; /* Prevents text from breaking into two lines */
+    margin-bottom: 10px; /* Ensures consistent spacing */
+}
+
+/* "Esquire PC" (placed directly below) */
+.top-left-subtext {
+    font-family: 'EsquireFont';
+    font-size: 1.6rem; /* Slightly smaller for distinction */
+    color: #211F21;
+    margin-top: -20px; /* Matches the "GALAB DHUNGANA" → "ATTORNEY AT LAW" spacing */
 }
 
 .container {
@@ -61,18 +75,18 @@ h1 {
     font-size: 3rem;
     color: #211F21;
     padding: 20px;
-    margin-bottom: -5px; /* Reduces space below H1 */
+    margin-bottom: -5px;
 }
 
 h2 {
-    font-family: 'AttorneyFont', sans-serif;
+    font-family: 'AttorneyFont';
     font-size: 1.4rem;
-    color: #211F21; /* Matches H1 text color */
-    margin-top: -30px; /* Moves text closer to H1 */
+    color: #211F21;
+    margin-top: -30px; /* Matches spacing */
 }
 
 .right-image {
-    width: 150px; /* Adjust as needed */
+    width: 150px;
     height: auto;
-    border-radius: 10px; /* Optional: adds rounded corners */
+    border-radius: 10px;
 }
