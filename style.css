@@ -19,6 +19,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'BioHeadingFont';
+    src: url('fp9bi8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BioTextFont';
+    src: url('fp9r8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'LibrumEBold';
     text-align: center;
@@ -32,35 +46,22 @@ body {
     flex-direction: column;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between text and image */
-    max-width: 80%;
-    flex-wrap: wrap; /* Ensures responsiveness */
+/* Biography Section */
+.bio-container {
+    max-width: 60%;
+    text-align: left;
+    margin-top: 50px; /* Adjust space below existing content */
 }
 
-.text-content {
-    text-align: center;
+.bio-container h3 {
+    font-family: 'BioHeadingFont';
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-h1 {
-    font-size: 3rem;
-    color: #211F21;
-    padding: 20px;
-    margin-bottom: -5px;
-}
-
-h2 {
-    font-family: 'AttorneyFont';
-    font-size: 1.4rem;
-    color: #211F21;
-    margin-top: -30px; /* Matches spacing */
-}
-
-.right-image {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
+.bio-container p {
+    font-family: 'BioTextFont';
+    font-size: 1.2rem;
+    text-indent: 30px; /* Indentation for paragraphs */
+    line-height: 1.5;
 }
