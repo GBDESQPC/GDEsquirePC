@@ -14,7 +14,7 @@
 
 /* Full-Screen Background */
 body {
-    font-family: 'BodyFont', serif !important; /* ✅ Forces body text to use fp9r8a.otf */
+    font-family: 'BodyFont', serif !important; /* ✅ Ensures body text uses fp9r8a.otf */
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
@@ -28,14 +28,13 @@ body {
     color: #211F21;
 }
 
-/* Title Styling - Fixed Position */
+/* Title Styling - Ensures Visibility */
 .main-title {
     font-family: 'LibrumEBold', serif;
     font-size: 3.5rem;
     text-transform: uppercase;
-    margin-top: auto; /* ✅ Dynamically adjusts to stay visible */
+    margin-top: 120px; /* ✅ Pushes title down to make it fully visible */
     margin-bottom: 30px;
-    padding-top: 80px; /* ✅ Pushes title into viewport */
 }
 
 /* Container for Content */
@@ -52,21 +51,10 @@ h2 {
     margin-top: 15px;
 }
 
-/* Regular Text - Now **FORCIBLY** Uses the Correct Font */
-p {
+/* Regular Text - Forces Correct Font */
+p, ul, li {
     font-family: 'BodyFont', serif !important; /* ✅ Forces correct font */
     font-size: 1.2rem;
     margin-bottom: 10px;
     line-height: 1.5;
-}
-
-/* Bullet Points - Properly Aligned */
-ul {
-    font-family: 'BodyFont', serif !important; /* ✅ Ensures bullet text also uses fp9r8a.otf */
-    font-size: 1.2rem;
-    padding-left: 20px;
-}
-
-li {
-    margin: 5px 0;
 }
