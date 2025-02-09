@@ -24,7 +24,7 @@ body {
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
-    color: white; /* Adjust for readability */
+    color: #211F21; /* Changed from white to match all text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +32,13 @@ body {
     flex-direction: column;
 }
 
+/* Move "Galab Dhungana Esquire PC" higher */
 .top-left-text {
     font-family: 'EsquireFont', sans-serif;
     font-size: 1.2rem;
-    color: #211F21; /* Matches other text color */
+    color: #211F21; /* Changed from white */
     position: absolute;
-    top: 20px;
+    top: 10px; /* Adjusted to move it higher */
     left: 30px;
 }
 
