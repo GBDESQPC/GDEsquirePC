@@ -133,9 +133,9 @@ h2 {
 .bio-container {
     font-family: 'BioTextFont';
     font-size: 1.2rem;
-    max-width: 60%;
+    max-width: 50%; /* Decreases width, increasing margins */
     text-align: left;
     line-height: 1.6;
-    margin: 20px auto;
-    padding-top: 10px;
+    margin: 20px auto; /* Centers content with wider margins */
+    padding: 10px;
 }
