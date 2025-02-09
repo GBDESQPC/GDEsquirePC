@@ -101,7 +101,7 @@ h2 {
     font-family: 'BioTextFont';
     font-size: 1.2rem;
     max-width: 60%;
-    text-align: justify; /* Ensures nice readability */
+    text-align: left;
     line-height: 1.6;
     margin: 0 auto; /* Removes space above, centers it */
     padding-top: 5px; /* Keeps just a little breathing room */
