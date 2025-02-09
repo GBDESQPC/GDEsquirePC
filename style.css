@@ -5,9 +5,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'BodyFont';
+    src: url('fp9r8a.otf') format('opentype');
+}
+
 /* Full-Screen Background */
 body {
-    font-family: 'LibrumEBold', serif;
+    font-family: 'BodyFont', serif;
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
@@ -15,6 +20,7 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -22,9 +28,41 @@ body {
 /* Title Styling */
 .main-title {
     font-family: 'LibrumEBold', serif;
-    font-size: 6rem; /* Large to match original */
+    font-size: 3.5rem; /* Corrected size */
     text-transform: uppercase;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8); /* Keeps readability */
-    margin: 0; /* No extra margins */
+    margin: 10px 0; /* Adds slight margin for spacing */
     padding: 0;
+}
+
+/* Container for Content */
+.container {
+    max-width: 700px;
+    padding: 20px; /* Adds margins so it's not squished */
+    text-align: left; /* Align text naturally */
+}
+
+/* Section Titles */
+h2 {
+    font-family: 'LibrumEBold', serif;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+/* Regular Text */
+p {
+    font-family: 'BodyFont', serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Bullet Points - Properly Aligned */
+ul {
+    font-family: 'BodyFont', serif;
+    font-size: 1.2rem;
+    padding-left: 20px; /* Adjust bullet position */
+}
+
+li {
+    margin: 5px 0; /* Ensures bullets are properly spaced */
 }
