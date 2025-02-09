@@ -34,11 +34,11 @@ body {
 
 /* Move "Galab Dhungana Esquire PC" higher */
 .top-left-text {
-    font-family: 'EsquireFont', sans-serif;
+    font-family: 'EsquireFont'
     font-size: 1.2rem;
     color: #211F21;
     position: absolute;
-    top: 30px; /
+    top: 10px; /
     left: 30px;
 }
 
