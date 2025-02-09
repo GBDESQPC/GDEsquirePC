@@ -48,7 +48,7 @@ h2 {
     font-family: 'AttorneyFont', sans-serif;
     font-size: 1.4rem;
     color: #211F21; /* Matches H1 text color */
-    margin-top: -15px; /* Moves text closer to H1 */
+    margin-top: -30px; /* Moves text closer to H1 */
 }
 
 .right-image {
