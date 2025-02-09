@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'BioHeadingFont';
+    src: url('fp9bi8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'LibrumEBold';
     text-align: center;
@@ -32,35 +39,11 @@ body {
     flex-direction: column;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between text and image */
-    max-width: 80%;
-    flex-wrap: wrap; /* Ensures responsiveness */
-}
-
-.text-content {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3rem;
+/* "ABOUT GALAB DHUNGANA" Styling */
+.about-heading {
+    font-family: 'BioHeadingFont';
+    font-size: 2rem;
     color: #211F21;
-    padding: 20px;
-    margin-bottom: -5px;
+    text-transform: uppercase; /* Ensures all caps */
+    margin-top: 80px; /* Creates sizable space below existing content */
 }
-
-h2 {
-    font-family: 'AttorneyFont';
-    font-size: 1.4rem;
-    color: #211F21;
-    margin-top: -30px; /* Matches spacing */
-}
-
-.right-image {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}"
