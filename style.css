@@ -41,13 +41,14 @@ h1 {
     font-size: 3rem;
     color: #211F21;
     padding: 20px;
+    margin-bottom: -5px; /* Reduces space below H1 */
 }
 
 h2 {
     font-family: 'AttorneyFont', sans-serif;
-    font-size: 1.5rem;
-    color: #211F21;
-    margin-top: -10px; /* Adjusts spacing between h1 and h2 */
+    font-size: 1.4rem;
+    color: #211F21; /* Matches H1 text color */
+    margin-top: -15px; /* Moves text closer to H1 */
 }
 
 .right-image {
