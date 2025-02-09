@@ -146,4 +146,6 @@ h2 {
     line-height: 1.6;
     margin: 0px auto; /* Centers content with wider margins */
     padding: 10px;
+    position: relative;
+    top: -30px;
 }
