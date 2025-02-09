@@ -61,7 +61,7 @@
     font-size: 1.2rem; /* Same size as "Galab Dhungana" */
     font-weight: bold;
     color: #211F21;
-    text-transform: uppercase; /* Forces all caps */
+    text-transform: none;
     margin-bottom: 10px; /* Reduces space between "Esquire PC" and image */
 }
 
