@@ -1,5 +1,5 @@
 body {
-    font-family: 'LibrumEBold';
+    font-family: 'LibrumEBold' !important;
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
