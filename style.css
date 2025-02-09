@@ -39,7 +39,7 @@
     color: #211F21;
     position: absolute;
     top: 50px; /* Moves it further down (adjust this value) */
-    right: 40px; /* Keeps it slightly to the left of the edge */
+    right: 80px; /* Keeps it slightly to the left of the edge */
     text-align: right;
     line-height: 1.4;
 }
