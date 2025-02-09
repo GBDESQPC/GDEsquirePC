@@ -114,9 +114,9 @@ h2 {
 /* Black Line Image Below "ATTORNEY AT LAW" */
 .black-line {
     display: block;
-    width: 200px; /* Adjust width as needed */
+    width: 300px; /* Adjust width as needed */
     height: auto;
-    margin: 30px auto 0; /* Moves it 1 inch (~30px) below the text */
+    margin: 90px auto 0;
 }
 
 /* "ABOUT GALAB DHUNGANA" Heading */
