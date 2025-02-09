@@ -111,6 +111,14 @@ h2 {
     margin-top: -20px;
 }
 
+/* Black Line Image Below "ATTORNEY AT LAW" */
+.black-line {
+    display: block;
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+    margin: 30px auto 0; /* Moves it 1 inch (~30px) below the text */
+}
+
 /* "ABOUT GALAB DHUNGANA" Heading */
 .about-heading {
     font-family: 'BioHeadingFont';
