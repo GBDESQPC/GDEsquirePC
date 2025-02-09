@@ -122,10 +122,10 @@ h2 {
 /* Contact Info Below the Black Line */
 .contact-info {
     font-family: 'LibrumEBold';
-    font-size: 1rem; /* Matches top-right text */
+    font-size: 2rem;
     color: #211F21;
     text-align: center;
-    margin-top: 40px; /* Moves it about 2 inches below the black line */
+    margin-top: 70px; /* Moves it about 2 inches below the black line */
 }
 
 /* "ABOUT GALAB DHUNGANA" Heading */
