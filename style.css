@@ -72,7 +72,7 @@
     display: block;
     margin: 0 auto;
     position: relative; /* Moves only the image */
-    top: 20px; /* Moves the image down without affecting anything else */
+    top: 30px; /* Moves the image down without affecting anything else */
 }
 
 body {
