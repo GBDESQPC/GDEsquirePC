@@ -10,16 +10,31 @@ body {
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
-    color: white; /* Change this if needed for readability */
+    color: white; /* Adjust for readability */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between text and image */
+    max-width: 80%;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
 h1 {
     font-size: 3rem;
-    color: #211F21; /* Dark gray text */
+    color: #211F21;
     padding: 20px;
-    background: none; /* Remove black highlight */
+    text-align: center;
+}
+
+.right-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
