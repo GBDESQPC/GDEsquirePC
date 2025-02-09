@@ -141,7 +141,7 @@ h2 {
     font-family: 'LibrumEBold';
     font-size: 1.2rem;
     max-width: 60%; /* Reduces width for wider margins */
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
     margin: 0px auto; /* Centers content */
     position: relative;
