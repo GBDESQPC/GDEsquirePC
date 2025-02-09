@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'EsquireFont';
+    src: url('fp9b8a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'LibrumEBold', sans-serif;
     text-align: center;
@@ -22,6 +29,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+}
+
+.top-left-text {
+    font-family: 'EsquireFont', sans-serif;
+    font-size: 1.2rem;
+    color: #211F21; /* Matches other text color */
+    position: absolute;
+    top: 20px;
+    left: 30px;
 }
 
 .container {
