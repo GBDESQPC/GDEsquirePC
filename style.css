@@ -32,24 +32,6 @@ body {
     flex-direction: column;
 }
 
-/* Container to properly align and space the text */
-.top-left-container {
-    position: absolute;
-    top: 80px; /* Moves the text further down */
-    left: 150px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-}
-
-/* "Galab Dhungana Esquire PC" */
-.top-left-text {
-    font-family: 'EsquireFont';
-    font-size: 1.6rem; /* Keeps text readable */
-    color: #211F21;
-    margin-bottom: 10px; /* Ensures consistent spacing */
-}
-
 .container {
     display: flex;
     align-items: center;
