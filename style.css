@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'LibrumEBold';
-    src: url('LibrumE-Bold.ttf') format('truetype');
+    src: url('LibrumE-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -14,7 +14,7 @@
 
 /* Full-Screen Background */
 body {
-    font-family: 'BodyFont', serif !important; /* ✅ Ensures body text uses fp9r8a.otf */
+    font-family: 'BodyFont', serif;
     text-align: center;
     background: url('Screen%20Shot%202025-02-08%20at%205.39.43%20PM.png') no-repeat center center fixed;
     background-size: cover;
@@ -23,18 +23,19 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end; /* ✅ Pushes everything lower */
     align-items: center;
+    padding-bottom: 10vh; /* ✅ Adds spacing below content */
     color: #211F21;
 }
 
-/* Title Styling - Ensures Visibility */
+/* Title Styling - Lowered */
 .main-title {
     font-family: 'LibrumEBold', serif;
     font-size: 3.5rem;
     text-transform: uppercase;
-    margin-top: 120px; /* ✅ Pushes title down to make it fully visible */
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* ✅ Adds spacing below title */
+    padding-top: 15vh; /* ✅ Pushes title down */
 }
 
 /* Container for Content */
@@ -51,9 +52,9 @@ h2 {
     margin-top: 15px;
 }
 
-/* Regular Text - Forces Correct Font */
+/* Regular Text */
 p, ul, li {
-    font-family: 'BodyFont', serif !important; /* ✅ Forces correct font */
+    font-family: 'BodyFont', serif;
     font-size: 1.2rem;
     margin-bottom: 10px;
     line-height: 1.5;
