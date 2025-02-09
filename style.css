@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'LibrumEBold';
-    src: url('LibrumE-Bold.ttf') format('truetype');
+    src: url('Garamond-3-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'AttorneyFont';
-    src: url('fp9r8a.ttf') format('truetype');
+    src: url('Garamond-Three-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'BioTextFont';
-    src: url('LibrumE-Bold.ttf') format('truetype');
+    src: url('Garamond-Three-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
