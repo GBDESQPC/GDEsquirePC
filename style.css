@@ -70,7 +70,9 @@
     width: 90px; /* Keeps the image small */
     height: auto;
     display: block;
-    margin: 10px auto 0; /* Slightly pushes the image down */
+    margin: 0 auto;
+    position: relative; /* Moves only the image */
+    top: 20px; /* Moves the image down without affecting anything else */
 }
 
 body {
