@@ -41,7 +41,7 @@
 /* Logo and Name Section */
 .logo-container {
     text-align: center;
-    margin-bottom: 30px; /* Space below the logo */
+    margin-bottom: 20px; /* Space below the logo */
     margin-top: 50px; /* Moves the entire section down */
 }
 
@@ -52,7 +52,7 @@
     font-weight: bold;
     color: #211F21;
     text-transform: none; /* Keeps normal capitalization */
-    margin-bottom: 10px; /* Increased space between this and "ESQUIRE PC" */
+    margin-bottom: 5px; /* Reduces space between this and "ESQUIRE PC" */
 }
 
 /* "ESQUIRE PC" - All Caps */
@@ -62,7 +62,7 @@
     font-weight: bold;
     color: #211F21;
     text-transform: uppercase; /* Forces all caps */
-    margin-bottom: 20px; /* Space between "Esquire PC" and image */
+    margin-bottom: 10px; /* Reduces space between "Esquire PC" and image */
 }
 
 /* Small Logo Styling */
@@ -70,7 +70,7 @@
     width: 90px; /* Keeps the image small */
     height: auto;
     display: block;
-    margin: 15px auto 0; /* Pushes the image down slightly */
+    margin: 10px auto 0; /* Slightly pushes the image down */
 }
 
 body {
