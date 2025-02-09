@@ -32,10 +32,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
-/* Blank Spacer to Push Content Down */
+/* Reduce Blank Spacer */
 .spacer {
-    height: 50px; /* Adjust this to move everything down */
+    height: 10px;
 }
 
 /* Logo and Name Section */
