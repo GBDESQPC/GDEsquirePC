@@ -32,6 +32,26 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'GaramondThree';
+    src: url('Garamond-Three-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Address in the Top Right */
+.address {
+    font-family: 'GaramondThree', serif;
+    font-size: 1rem; /* Small size */
+    color: #211F21;
+    position: absolute;
+    top: 20px; /* Moves it slightly down from the top */
+    right: 40px; /* Moves it a little to the left from the right edge */
+    text-align: right;
+    line-height: 1.4;
+}
+
 /* Reduce Blank Spacer */
 .spacer {
     height: 0px;
