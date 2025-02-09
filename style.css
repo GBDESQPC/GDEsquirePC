@@ -32,14 +32,16 @@ body {
     flex-direction: column;
 }
 
-/* Move "Galab Dhungana Esquire PC" higher */
+/* Fix alignment, increase font size, and move text up */
 .top-left-text {
-    font-family: 'EsquireFont'
-    font-size: 1.2rem;
+    font-family: 'EsquireFont', sans-serif; /* Fixed missing semicolon */
+    font-size: 2rem; /* Increased size */
     color: #211F21;
     position: absolute;
-    top: 10px; /
+    top: 5px; /* Moves it higher */
     left: 30px;
+    text-align: left; /* Ensures it's aligned to the left */
+    white-space: nowrap; /* Prevents text from breaking into two lines */
 }
 
 .container {
