@@ -150,5 +150,5 @@ h2 {
     line-height: 1.6;
     margin: 0px auto; /* Centers content */
     position: relative;
-    top: -60px; /* Keeps it pulled up */
+    top: -30px; /* Moves it down (adjust as needed) */
 }
