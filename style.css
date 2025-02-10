@@ -90,25 +90,23 @@ body {
     margin-bottom: 80px;
 }
 
-/* Title Text Container */
 .text-content {
     text-align: center;
-    position: relative; /* Allows movement without affecting other elements */
-    top: 20px; /* Moves the title down (increase this for more spacing) */
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 3.5rem;
     color: #211F21;
     padding: 20px;
-    margin-bottom: -5px;
+    margin-top: 20px; /* Moves "Galab Dhungana" down */
 }
 
 h2 {
     font-family: 'AttorneyFont';
     font-size: 1.3rem;
     color: #211F21;
-    margin-top: -20px;
+    margin-top: 10px; /* Moves "Attorney at Law" down */
 }
 
 /* Black Line Image Below "ATTORNEY AT LAW" */
