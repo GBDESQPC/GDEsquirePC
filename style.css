@@ -126,7 +126,7 @@ h2 {
 /* Contact Information Section */
 .contact-info {
     font-family: 'LibrumEBold';
-    font-size: 1.2rem; /* Matches bio text size */
+    font-size: 1rem; /* Matches bio text size */
     color: #211F21;
     text-align: center;
     margin-top: 20px; /* Adjust spacing from the black line */
