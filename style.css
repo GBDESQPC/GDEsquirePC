@@ -65,6 +65,11 @@
     margin: 10px auto 0;
 }
 
+/* Spacer Above "Galab Dhungana" */
+.title-spacer {
+    height: 30px; /* Moves everything down by about an inch */
+}
+
 body {
     font-family: 'LibrumEBold';
     text-align: center;
