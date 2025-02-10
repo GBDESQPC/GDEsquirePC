@@ -153,3 +153,20 @@ h2 {
     position: relative;
     top: -30px; /* Moves it down (adjust as needed) */
 }
+
+/* Black Line Below Bio */
+.black-line-bio {
+    display: block;
+    width: 300px; /* Same size as the other black line */
+    height: auto;
+    margin: 60px auto 0; /* Matches spacing of the first black line */
+}
+
+/* Call to Action Text */
+.call-to-action {
+    font-family: 'LibrumEBold';
+    font-size: 1.2rem;
+    color: #211F21;
+    text-align: center;
+    margin-top: 20px; /* Same spacing as the other sections */
+}
