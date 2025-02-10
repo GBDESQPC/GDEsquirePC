@@ -90,10 +90,11 @@ body {
     margin-bottom: 80px;
 }
 
-/* Header Text */
+/* Title Text Container */
 .text-content {
     text-align: center;
-    margin-bottom: 50px;
+    position: relative; /* Allows movement without affecting other elements */
+    top: 20px; /* Moves the title down (increase this for more spacing) */
 }
 
 h1 {
