@@ -106,7 +106,7 @@ h2 {
     font-family: 'AttorneyFont';
     font-size: 1.3rem;
     color: #211F21;
-    margin-top: 10px; /* Moves "Attorney at Law" down */
+    margin-top: -20px; /* Moves "Attorney at Law" down */
 }
 
 /* Black Line Image Below "ATTORNEY AT LAW" */
